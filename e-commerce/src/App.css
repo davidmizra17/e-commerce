@@ -1,1 +1,23 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+h1, h2{
+    font-family: Helvetica, sans-serif;
+}
+
+/* header div{
+    background: green;
+}
+
+header aside{
+    background: red;
+} */
+
+#Carrito{
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}

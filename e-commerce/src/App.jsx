@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
+import './App.css'
 
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <BrowserRouter>
     <div>
       <header>
-        <a href='/'>amazona</a>
+        <div><a href='/'><h1>Amazona</h1></a></div>
+        <aside><img src="public/images/Carrito.png" id="Carrito" alt=""/></aside>
       </header>
       <main>
         <Routes>
