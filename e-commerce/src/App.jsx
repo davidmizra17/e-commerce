@@ -9,7 +9,7 @@ function App() {
     <div>
       <header>
         <div><a href='/'><h1>Amazona</h1></a></div>
-        <aside><img src="public/images/Carrito.png" id="Carrito" alt=""/></aside>
+        <aside><img src="public/images/Carrito.png" id="Carrito"/></aside>
       </header>
       <main>
         <Routes>
