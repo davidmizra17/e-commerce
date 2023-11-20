@@ -8,16 +8,17 @@ h1, h2{
     font-family: Helvetica, sans-serif;
 }
 
-/* header div{
-    background: green;
+aside{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#icon-profile{
+    width: 30px;
+    cursor: pointer;
 }
 
-header aside{
-    background: red;
-} */
-
-#Carrito{
-    width: 50px;
-    border-radius: 5px;
+#icon-cart{
+    width: 30px;
     cursor: pointer;
 }

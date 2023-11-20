@@ -1,0 +1,25 @@
+#main{
+    display: grid;
+    grid-template-areas: 
+        "title title title title title"
+        "factura articulos articulos articulos articulos"
+        "factura articulos articulos articulos articulos";
+}
+#uno{
+    background: yellow;
+    grid-area: title;
+    height: 15vh;
+    max-height: 100px;
+}
+
+#dos{
+    background: red;
+    grid-area: factura;
+    width: 100%;
+}
+
+#tres{
+    background: blue;
+    grid-area: articulos;
+    width: 100%;
+}

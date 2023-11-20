@@ -1,3 +1,24 @@
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product{
+    border:  1px #404040 solid;
+    margin: 1rem;
+}
+
+.product img{
+    width: 100%;
+    max-width: 400px;
+}
+
+.productInfo{
+    padding: 1rem;
+    font-family: Helvetica, sans-serif;
+}
+
 .productName{
     font-family: Helvetica, sans-serif;
     text-decoration: none;

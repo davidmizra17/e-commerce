@@ -1,0 +1,61 @@
+h2{
+    text-align: center;
+}
+#Subtitle{
+    margin-left: 20px;
+}
+h3{
+    font-family: Helvetica, sans-serif;
+}
+#Records article{
+    width: 50%;
+    background: rgb(197, 177, 177);
+    height: 500px;
+    margin: auto;
+}
+
+#container #purchases #products{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#product{
+    height: 100px;
+    width: 23%;
+    min-width: 230px;
+    display: flex;
+    justify-content: flex-start;
+    border:  1px #404040 solid;
+    margin: 1rem;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#product img{
+    height: 100%;
+    max-width: 200px;
+}
+
+#areaImage{
+    height: 100%;
+    max-width: 200px;
+}
+
+#productInfo{
+    padding: 1rem;
+    font-family: Helvetica, sans-serif;
+    align-self: center;
+}
+
+#productName{
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+#product:hover{
+    transform: scale(1.05);
+    transition-duration: 200ms;
+}
